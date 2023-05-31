@@ -1,0 +1,58 @@
+body{
+    padding : 0;
+    margin : 0;
+    background-image: url(img2.png);
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    max-width: 100vw;
+    background-color: rgba(255,255,255, 0.2);
+}
+/* .main-box{
+
+    
+} */
+.main-div{
+    display : flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+ 
+}
+
+.logo{
+    position: relative;
+    
+}
+
+.heading,
+.logo,
+.nameid,
+.work,
+.repo,
+.account_link{
+    display : flex;
+    justify-content: center;
+    align-content: center;    
+}
+/* .main-div{
+    border: 5px solid lightblue;
+
+} */
+.github-icon{
+    font-size: 50px;
+    margin : 10px;
+    display: inline-flex;
+
+}
+.heading{
+    font-size : 40px;
+    color: dimgrey;
+
+}
+#input-search,
+.search{
+    padding: 10px 10px;
+    border: 2px solid gray;
+    margin: 20px 5px;
+    border-radius: 7px;
+}
